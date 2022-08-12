@@ -36,9 +36,9 @@ int permutation(int arr[], int n, int k)
 int main()
 {
     int *arr, number, n, k, l, flag = 1, count = 0, temp;
-    printf("Enter the number of digits");
+    printf("Enter the number of digits: ");
     scanf("%d", &n);                     // total number of digits
-    printf("Enter the number");
+    printf("Enter the number: ");
     scanf("%d", &number);                // the number for which permutations has to be calculated
     arr = (int *)calloc(n, sizeof(int)); // allocate memory
     while (number > 0)                   // separating digits
